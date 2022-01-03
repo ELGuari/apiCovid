@@ -1,0 +1,56 @@
+<!DOCTYPE Html>
+<Html lang="en">
+<Head>
+    <meta cHarset="UTF-8">
+    <meta Http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widtH=device-widtH, initial-scale=1.0">
+    <title>ESTADISTICAS COVID</title>
+    <link rel="stylesHeet" Href="style.css">
+</Head>
+<body>
+    <div class="contenedor">
+        <H1>Estadisticas del COVID19</H1>
+
+        <b>FecHa</b><input id="inputFecha" type="date">
+        <br>
+        <br>
+        <b>Pais</b>
+        <select id="selectPais">
+            <option value="Spain">España</option>
+            <option value="Germany">Alemania</option>
+            <option value="Italy">Italia</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Chile">Chile</option>
+            <option value="Peru">Peru</option>
+
+        </select>
+        <br>
+        <br>
+        <button id="btnCargar">Cargar Estadisticas</button>
+        
+        <br>
+        <br>
+        <ul>
+            <li>Confirmados                                 <b><span id="today_confirmed"></span></b></li>
+            <li>Muertes                                     <b><span id="today_deaths"></span></b></li>
+            <li>Pacientes Hospitalizados con Sintomas       <b><span id="today_hospitalised_patients_with_symptoms"></span></b></li>
+            <li>Cuidados Intensivos                         <b><span id="today_intesive_care"></span></b><span id="today_intesive_care"></span></li>
+            <li>Nuevos Confirmados                          <b><span id="today_new_confirmed"></span></b></span></li>
+            <li>Nuevas Muertes                              <b><span id="today_new_deaths"></span></b></li>
+            <li>Nuevos Pacientes Hospitalizados con Sintomas <b><span id="today_new_hospitalised_patients_with_symptoms"></span></b></li>
+            <li>Nuevos Cuidados Intensivos                  <b><span id="today_new_intensive_care"></span></b></li>
+            <li>Nuevo Casos Abiertos                        <b><span id="today_new_open_cases"></span></b></li>
+            <li>Nuevos Recuperados                          <b><span id="todar_new_recovered"></span></b></li>
+            <li>Total de Pacientes Hospitalizados           <b><span id="today_new_total_hospitalised_patients"></span></b></span></li>
+        </ul>
+        
+
+
+    </div>
+
+
+    <script src="covid19.js"></script>
+    
+</body>
+</Html>
